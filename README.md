@@ -1,2 +1,3 @@
 # Firequiz
- Made following this https://www.youtube.com/watch?v=_oHByo8tiEY
+
+ Made (copied) following this yt vid <https://www.youtube.com/watch?v=_oHByo8tiEY>
