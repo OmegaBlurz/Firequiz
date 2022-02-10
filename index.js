@@ -55,7 +55,7 @@ async function handleAnswer(isCorrect) {
   
 function winner() {
     console.clear();
-    const msg = `Congrats , ${playerName} !\n $ 1 , 0 0 0 , 0 0 0`;
+    const msg = `Congrats , ${playerName} !\n 7   2   7   WY S I  LOSER`;
 
     figlet(msg, (err, data) => {
         console.log(gradient.pastel.multiline(data));
