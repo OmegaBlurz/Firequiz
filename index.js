@@ -66,32 +66,32 @@ async function question1() {
     const answers = await inquirer.prompt({
         name: 'question_1',
         type: 'list',
-        message: 'JavaScript was created in 10 days then realeased on\n',
+        message: 'Who had the 1st HR FC on Raise My Sword?\n',
         choices: [
-            'May 23rd, 1995',
-            'Nov 24th, 1995',
-            'Dec 4th, 1995',
-            'Dec 17th, 1996',
+            'fieryrage',
+            'Umbre',
+            'BTMC',
+            'Vaxei',
         ],
     });
 
-    return handleAnswer(answers.question_1 == 'Dec 4th, 1995');
+    return handleAnswer(answers.question_1 == 'BTMC');
 }
 
 async function question2() {
     const answers = await inquirer.prompt({
         name: 'question_2',
         type: 'list',
-        message: 'JavaScript was created in 10 days then realeased on\n',
+        message: 'Which player has held #1 PP ranking for the longest amount of time?\n',
         choices: [
-            'May 23rd, 1995',
-            'Nov 24th, 1995',
-            'Dec 4th, 1995',
-            'Dec 17th, 1996',
+            'WhiteCat',
+            'Shigetora',
+            'mrekk',
+            'ppy',
         ],
     });
 
-    return handleAnswer(answers.question_2 == 'Dec 4th, 1995');
+    return handleAnswer(answers.question_2 == 'Shigetora');
 }
 
 async function question3() {
